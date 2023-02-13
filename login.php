@@ -125,7 +125,7 @@ require_once(__DIR__.'/header.php');
             'disabled',
             true);
         $.ajax({
-            url: "<?=base_url('ajaxs/client/login.php');?>",
+            url: "/ajaxs/login.php",
             method: "POST",
             dataType: "JSON",
             data: {
